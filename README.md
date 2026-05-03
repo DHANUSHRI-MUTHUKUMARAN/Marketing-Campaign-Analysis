@@ -1,16 +1,16 @@
-# 📊 Marketing Campaign Analysis (Instagram Ads)
+# Marketing Campaign Analysis (Instagram Ads)
 
-## 🚩 Project Overview
+## Project Overview
 This project analyzes social media advertising campaigns to evaluate performance using key metrics such as **Click-Through Rate (CTR)** and **Conversion Rate**. It helps identify which campaigns perform best and what factors influence success.
 
 ---
 
-## 🎯 Problem Statement
+## Problem Statement
 Analyze Instagram ad campaigns to evaluate performance using CTR and Conversion Rate, and identify which campaigns perform best.
 
 ---
 
-## 🎯 Objectives
+## Objectives
 - Compare campaign performance across different channels  
 - Identify high-performing advertisements  
 - Understand the impact of audience and customer segments  
@@ -18,14 +18,14 @@ Analyze Instagram ad campaigns to evaluate performance using CTR and Conversion 
 
 ---
 
-## 📂 Dataset Information
+## Dataset Information
 - Total Records: **300,000 rows**  
 - Total Features: **16 columns**  
 - Large dataset suitable for data analysis and machine learning  
 
 ---
 
-## 📢 Channels Used
+## Channels Used
 - Instagram  
 - Facebook  
 - Pinterest  
@@ -33,7 +33,7 @@ Analyze Instagram ad campaigns to evaluate performance using CTR and Conversion 
 
 ---
 
-## 🎯 Campaign Goals
+## Campaign Goals
 - Product Launch  
 - Market Expansion  
 - Increase Sales  
@@ -41,7 +41,7 @@ Analyze Instagram ad campaigns to evaluate performance using CTR and Conversion 
 
 ---
 
-## 👥 Customer Segments
+## Customer Segments
 - Health  
 - Home  
 - Technology  
@@ -50,26 +50,26 @@ Analyze Instagram ad campaigns to evaluate performance using CTR and Conversion 
 
 ---
 
-## 🌍 Dataset Scope
+## Dataset Scope
 - The dataset is **US-based**, containing campaign data from major cities.
 
 ---
 
-## 📈 Key Metrics Used
+## Key Metrics Used
 - **CTR (Click-Through Rate):** Measures user engagement  
 - **Conversion Rate:** Measures successful actions  
 - **ROI (Return on Investment):** Measures profitability  
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 - Python  
 - Pandas  
 - Data Analysis  
 
 ---
 
-## 🚀 Project Status
+## Project Status
 - Dataset loaded and explored  
 - Data cleaned and preprocessed  
 - CTR feature created  
