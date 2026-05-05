@@ -1,0 +1,120 @@
+Project Title:
+Marketing Campaign Analysis (Instagram Ads)
+
+Problem Statement:
+Analyze Instagram ad campaigns to evaluate performance using CTR and Conversion Rate, and identify which campaigns perform best.
+
+Objectives:
+
+Compare campaign performance
+Identify high-performing ads
+Understand audience impact
+Suggest improvements
+
+dataset
+300,000 rows → large dataset
+16 columns → good feature variety
+
+Channels
+Instagram
+Facebook
+Pinterest
+Twitter
+
+Campaign Goals
+Product Launch
+Market Expansion
+Increase Sales
+Brand Awareness
+
+Customer Segments
+Health, Home, Technology, Food, Fashion
+
+US based dataset
+
+preprocessing 
+new columns were added 16 column to 25 
+    time based features - analyse seasonal trends
+    duration days - Conversion
+    performance metrics 
+        CTR - measure engagement efficiency 
+        CPC - cost per click
+        CPM - cost per 1000 impression - adversting cost efficiency
+        Conversion_Rate_Pct - Conversion to %
+        Estimated_Revenue - approx earning 
+        Sanity check - final verification before use 
+            CTR = clicks/ impression *100
+                all values are similar in all campaigns 
+                min - 15%
+                max - 33%
+            ROI = profit/cost
+                min = 0
+                max = 8
+                negative = 0
+                all values seems to be perfect not realist 
+            CPC = cost/click
+                range is small nd not too large
+            no missing values
+    Facebook     ~75K
+    Instagram    ~75K
+    Pinterest    ~75K
+    Twitter      ~74K
+    campaigns goals, channel, Customer segments, duration are all equal
+
+eda 
+    Total campaigns → 300,000
+    Total spend → $2.3B
+    Total revenue → $9.7B
+    Avg ROI → 3.18
+    Avg CTR → 31.4% 
+        in general it is profitable
+    
+    Best Platforms:
+        Instagram → ROI ≈ 4.01
+        Twitter → ROI ≈ 4.00
+        Facebook → ROI ≈ 3.99
+    Weak Platform:
+        Pinterest → ROI ≈ 0.72 
+    
+    campaign goals, Customer segment no. change
+
+    more duration more 
+
+visualizarion chart
+    1) Average ROI by Platform
+        Platform choice has a huge impact on profit
+        Pinterest campaigns are not worth the investment
+    2) Average CTR by Platform
+        Engagement is almost the same across platforms.
+        High engagement (CTR) does NOT explain why ROI is different.
+    3) Spend vs Revenue
+        Revenue:
+            Instagram / Facebook / Twitter → ~$2.9B
+            Pinterest → ~$1.0B
+        Same spending → very different returns
+    4) Campaign Goal × Platform (Heatmap)
+        Campaign goal does NOT matter much
+        Platform matters MUCH more
+    5) Conversion Rate by Customer Segment
+        Customer type has almost no effect on performance
+    6) Duration vs CTR & ROI
+        CTR increases with duration
+        ROI slightly decreases / stays same
+        Inference 
+            Longer campaigns → more engagement
+            But NOT more profit
+    7) Monthly ROI Trend
+        No seasonal impact
+    8) Correlation Heatmap
+        relationship
+            CTR vs ROI → 0.29 (weak)
+            CPC vs ROI → -0.53 (strong negative)
+            CPC vs CTR → -0.62
+        Inference
+            Higher CPC → lower ROI
+            CTR is not strongly linked to profit
+    9) CPC vs ROI Scatter
+        As CPC increases → ROI drops
+        Pinterest points mostly low ROI
+    10) ROI by Location
+        Location does NOT affect performance
