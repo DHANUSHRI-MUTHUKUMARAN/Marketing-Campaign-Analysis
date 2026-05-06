@@ -118,3 +118,17 @@ visualizarion chart
         Pinterest points mostly low ROI
     10) ROI by Location
         Location does NOT affect performance
+
+advanced
+    The advanced analysis shows that campaign performance is primarily influenced by platform choice and cost efficiency (CPC).
+    Instagram and Twitter consistently achieve high ROI due to lower costs, 
+    while Pinterest underperforms across all conditions due to higher CPC. 
+    Other factors such as 
+        campaign duration, 
+        customer segment, 
+        location, and 
+        engagement score
+    have minimal impact. 
+    Budget reallocation simulations further confirm that shifting investment to high-performing platforms 
+    can significantly improve revenue. 
+    The uniform nature of the results suggests that the dataset may be synthetic.
