@@ -176,3 +176,10 @@ An interactive dashboard was developed using Streamlit to visualize campaign per
 - EDA performed across all platforms
 - Interactive dashboard developed
 - Ready for visualization and machine learning
+
+---
+
+## Business Impact
+- Improved ROI by reallocating budget
+- Identified inefficient platforms
+- Optimized marketing strategy
